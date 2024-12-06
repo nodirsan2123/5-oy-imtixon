@@ -1,0 +1,23 @@
+.paragraph {
+    font-size: 25px;
+    transition: all;
+    font-family: inter;
+    color: gray;
+    transition: 1s;
+}
+
+.paragraph::after{
+    font-size: 26px;
+    display: none;
+}
+
+.btn-icon:focus,
+.btn-icon:active i{
+    background-color: #333333;
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
